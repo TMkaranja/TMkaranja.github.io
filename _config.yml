@@ -17,7 +17,7 @@ author:
   links:
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/Moses_Karanja_Thuo_CV.pdf" # Points directly to your uploaded CV PDF
+      url: "/assets/documents/Moses_Karanja_Thuo_CV.pdf" # Points directly to your uploaded CV PDF
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:moseskanji254@gmail.com"
