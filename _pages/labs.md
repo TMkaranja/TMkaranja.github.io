@@ -1,15 +1,29 @@
 ---
 layout: single
-title: "Key Projects"
-permalink: /projects/
+title: "Lab Challenges & CTF Writeups"
+permalink: /labs/
 author_profile: true
 ---
 
-### 🔍 Digital Forensics Research Initiative
-[cite_start]Conducted an in-depth analysis of computer, mobile, and operating system forensics using real-world case study applications[cite: 83]. [cite_start]Developed rigorous core expertise in chain-of-custody evidence collection and analytical methodologies[cite: 84].
+[cite_start]This section documents technical walkthroughs for lab environments, vulnerability machines, and Capture the Flag (CTF) competitions.
 
-### 🛡️ Ethical Hacking & Penetration Testing
-[cite_start]Gained deep, practical experience working with industry-standard penetration testing tools and testing frameworks[cite: 85]. [cite_start]Regularly participate in active Capture the Flag (CTF) environments to constantly challenge and build analytical problem-solving skills.
+### 💻 Lab Writeup Template (Example)
 
-### 👥 Cybersecurity Awareness Campaign Development
-[cite_start]Designed and polished comprehensive training blueprints and materials optimized for diverse, non-technical audiences[cite: 79]. [cite_start]Focused heavily on bridging persistent digital literacy gaps and driving safe security habits among youth and tech professionals[cite: 81].
+#### 🎯 Problem Statement
+* **Target:** Vulnerable simulated network asset / CTF Flag.
+* [cite_start]**Objective:** Gain root/administrative escalation or extract the flag system data.
+
+#### 🚀 Technical Approach
+1.  **Reconnaissance:** Ran comprehensive stealth scanning to locate open ports.
+2.  **Vulnerability Assessment:** Mapped running services against open exploit databases.
+3.  **Exploitation:** Utilized clean terminal payloads to build a shell footprint.
+
+#### 🧰 Tools Utilized
+* [cite_start]Nmap, Burp Suite, Kali Linux [cite: 72]
+
+#### 🖼️ Evidence & Screenshots
+`[Placeholder: Insert clean screenshot links or terminal output logs here]`
+
+#### 🧠 Key Lessons Learned
+* Enforcing rigid patch configuration timelines avoids known exploit vectors.
+* Secure privilege isolation prevents simple vertical traversal inside systems.
