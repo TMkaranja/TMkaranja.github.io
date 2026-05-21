@@ -10,7 +10,7 @@ baseurl: ""
 # Site Author Defaults
 author:
   name: "Moses Karanja Thuo"
-  avatar: "/assets/images/bio-photo.jpg" # Add your professional headshot here
+  avatar: "assets/css/photo_2026-05-21_21-36-41.jpg" # Add your professional headshot here
   bio: "Cybersecurity & Digital Forensics Student | Ethical Hacker | Cyber Threat Analyst"
   location: "Kitale, Kenya"
   links:
