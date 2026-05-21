@@ -2,71 +2,52 @@
 layout: single
 title: "Professional Resume"
 permalink: /resume/
-toc: true
-toc_label: "Contents"
-toc_icon: "file-alt"
+author_profile: true
 ---
 
-## Summary
-Dedicated Cybersecurity and Digital Forensics specialist focused on optimizing infrastructure security posture, active threat hunting, security auditing, and digital incident investigations.
+## 🎓 Education
+
+* [cite_start]**Diploma in Computer Science - Cybersecurity and Forensic** [cite: 32]
+  * *Kibabii University* (09/2022 - Present) | Bungoma, Kenya [cite: 32, 50]
+* [cite_start]**Kenya Certificate of Secondary Education (Mean Grade B-)** [cite: 33]
+  * *St Francis Boys High School - Suwerwa* (01/2018 - 11/2021) | [cite_start]Kitale, Kenya [cite: 33, 51]
 
 ---
 
-## Work Experience
+## 💼 Professional Experience
 
 ### AI Data Annotation Specialist
-**Atlas Capture** | *02/2026 - Present* (Remote)
-* Annotate and label video datasets for AI and machine learning training applications.
-* Isolate and track specific objects, actions, and anomalous patterns with high precision.
-* Execute strict quality assurance validation sweeps to minimize data classification and labeling errors.
+* **Atlas Capture** (02/2026 - Present) | [cite_start]Remote [cite: 13, 45]
+* [cite_start]Annotate and label video datasets for AI and machine learning training[cite: 14].
+* [cite_start]Identify objects, actions, and patterns with high accuracy while maintaining data quality standards[cite: 15, 16].
 
 ### Security Analyst Trainee
-**Cyber Shujaa Program** | *09/2025 - 04/2026* (Nairobi, Kenya)
-* Completed advanced training covering cybersecurity frameworks, real-time threat analysis, and incident response paradigms.
-* Orchestrated active SOC-style defensive simulations and structured system vulnerability assessments.
-* Engineered security log monitoring procedures, compliance reporting metrics, and business risk analyses.
-* Conducted hands-on technical labs utilizing ethical hacking suites and core infrastructure defensive hardening techniques.
+* **Cyber Shujaa Program** (09/2025 - 04/2026) | [cite_start]Nairobi, Kenya [cite: 19, 46, 47]
+* [cite_start]Completed intensive training in cybersecurity fundamentals, threat analysis, and incident response[cite: 20].
+* [cite_start]Executed SOC-style simulations, vulnerability assessment exercises, and hands-on system defense labs[cite: 21, 23].
 
 ### Cybersecurity and Forensic Industrial Attachment
-**Secunets Technologies Limited** | *09/2024 - 12/2024* (Kikuyu Town, Kenya)
-* Conducted system-wide vulnerability assessments and multi-layer compliance security audits on client systems.
-* Assisted core engineering teams in active network penetration testing exercises to flag internal infrastructure weaknesses.
-* Drafted, evaluated, and deployed robust corporate IT security policies to strengthen client organizational defense baselines.
-* Formulated and led interactive cybersecurity awareness training modules tailored for staff and corporate entities.
+* **Secunets Technologies Limited** (09/2024 - 12/2024) | [cite_start]Kikuyu Town, Kenya [cite: 25, 48, 49]
+* [cite_start]Conducted vulnerability assessments, security audits, and assisted in penetration testing on live client systems[cite: 26].
+* [cite_start]Implemented tailored IT security policies to improve organizational security posture and supported staff awareness training[cite: 27, 28].
 
 ---
 
-## Education
+## 🏅 Certifications & Awards
 
-* **Diploma in Computer Science - Cybersecurity and Forensics** *Kibabii University* | *09/2022 - Present* (Bungoma, Kenya)
-* **Kenya Certificate of Secondary Education (Mean Grade: B-)** *St. Francis Boys High School - Suwerwa* | *01/2018 - 11/2021* (Kitale, Kenya)
+* [cite_start]**Cyber Shujaa Security Analyst Certification** – USIU-Africa & Serianu Limited (Apr 2026) [cite: 53]
+* [cite_start]**Practical Ethical Hacking** – TCM Security, Inc. (2025) [cite: 53]
+* [cite_start]**Computer & Digital Forensics Masterclass** – OCSALY Academy (2024) [cite: 53]
+* [cite_start]**Cybersecurity Fundamentals Certificate** – IBM SkillsBuild (2024) [cite: 53]
+* [cite_start]**CA CyberRise Hackathon Excellence Award** – Communications Authority of Kenya (2023) [cite: 55, 56, 57]
 
 ---
 
-## Technical Skills & Toolsets
+## 🛠️ Tools & Technologies
 
-| Security Domain | Applied Toolsets & Frameworks |
+| Domain | Tools & Frameworks |
 | :--- | :--- |
-| **Penetration Testing** | Kali Linux, Burp Suite, SQLmap, Nmap, Metasploit Framework |
-| **Network Security** | Wireshark, Nessus Vulnerability Scanner, Protocol Analysis |
-| **Digital Forensics** | Autopsy Forensic Browser, Volatility, Mobile & OS Artifact Analysis |
-| **Incident Response** | Malware Analysis, Threat Vector Detection, Infrastructure Auditing |
-
-### Core Competencies
-* Cybersecurity Risk Assessment & Threat Intelligence Analysis
-* Advanced Research Methodology & Technical Data Reporting
-* Security Policy Documentation & Compliance Standards Implementation
-
----
-
-## Certifications & Honors
-
-### Professional Certifications
-* **Cyber Shujaa Security Analyst Certification** – USIU-Africa / Serianu Limited (2026)
-* **Practical Ethical Hacking (PEH)** – TCM Security, Inc. (2025)
-* **Computer & Digital Forensics Masterclass** – OCSALY Academy (2024)
-* **Cybersecurity Fundamentals Certificate** – IBM SkillsBuild (2024)
-
-### Awards
-* **CA CyberRise Hackathon Laureate (2023)** – *Communications Authority of Kenya*
-  * Formally recognized by federal telemetry heads for deploying outstanding tactical strategies in ethical hacking and live threat detection matrices.
+| **Penetration Testing** | [cite_start]Kali Linux, Burp Suite, SQLmap, Nmap, Metasploit [cite: 72] |
+| **Digital Forensics** | [cite_start]Autopsy, Volatility, Mobile & OS Forensics [cite: 70] |
+| **Network Security** | [cite_start]Wireshark, Nessus, Network Analysis [cite: 74] |
+| **Incident Response** | [cite_start]Threat Detection, Malware Analysis, Security Auditing [cite: 76] |
