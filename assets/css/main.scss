@@ -1,1 +1,23 @@
+---
+---
+@charset "utf-8";
 
+// Terminal/Cyberpunk Color Overrides
+$background-color: #05050a; 
+$text-color: #00ff41; 
+$primary-color: #008f11; 
+$link-color: #00ffcc; 
+$muted-text-color: #003b00;
+
+// Typography
+$sans-serif: 'Fira Code', 'Courier New', monospace; 
+$serif: 'Share Tech Mono', monospace; 
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
+@import "minimal-mistakes"; 
+
+// Subtle Matrix Glow Effect on Headers
+h1, h2, h3 {
+  text-shadow: 0 0 5px $primary-color;
+  letter-spacing: 2px;
+}
