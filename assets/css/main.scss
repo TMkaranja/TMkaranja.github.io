@@ -2,22 +2,24 @@
 ---
 @charset "utf-8";
 
-// Terminal/Cyberpunk Color Overrides
-$background-color: #05050a; 
-$text-color: #00ff41; 
-$primary-color: #008f11; 
-$link-color: #00ffcc; 
-$muted-text-color: #003b00;
+// Professional Corporate Color Palettes
+$background-color: #ffffff;    
+$text-color: #2b2b2b;          
+$primary-color: #1f3a60;       
+$link-color: #0066cc;          
+$muted-text-color: #6a737d;    
 
-// Typography
-$sans-serif: 'Fira Code', 'Courier New', monospace; 
-$serif: 'Share Tech Mono', monospace; 
+// Sharp Executive Typography
+$sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$serif: Georgia, "Times New Roman", Times, serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
 @import "minimal-mistakes"; 
 
-// Subtle Matrix Glow Effect on Headers
-h1, h2, h3 {
-  text-shadow: 0 0 5px $primary-color;
-  letter-spacing: 2px;
+// Clean heading overrides
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: $primary-color;
+  letter-spacing: -0.5px;
+  text-shadow: none !important;
 }
