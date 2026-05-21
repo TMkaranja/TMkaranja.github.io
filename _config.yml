@@ -1,44 +1,21 @@
-# Site settings
+# Site Settings
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "clean" # Provides a crisp, high-contrast, professional tech aesthetic
+
 title: "Moses Karanja Thuo"
-email: "moseskanji254@gmail.com"
-description: "Cybersecurity & Digital Forensics Professional | Ethical Hacker"
-github_username: "ThuoKaranja"
+description: "Cybersecurity & Digital Forensics Portfolio"
+url: "https://ThuoKaranja.github.io"
+baseurl: ""
 
-# Clean Default Layout
-minimal_mistakes_skin: "default"
-search: true
-
-# Build settings
-markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5
-paginate_path: /page:num/
-timezone: "Africa/Nairobi"
-
-include:
-  - _pages
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
-# Profile Sidebar Configuration
+# Site Author Defaults
 author:
-  name     : "Moses Karanja Thuo"
-  avatar   : "/assets/images/profile.jpg"
-  bio      : "Cybersecurity and Digital Forensics professional specializing in penetration testing, incident response, and threat analysis."
-  location : "Kitale, Kenya"
+  name: "Moses Karanja Thuo"
+  avatar: "/assets/images/bio-photo.jpg" # Add your professional headshot here
+  bio: "Cybersecurity & Digital Forensics Student | Ethical Hacker | Cyber Threat Analyst"
+  location: "Kitale, Kenya"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:moseskanji254@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -47,36 +24,13 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ThuoKaranja"
 
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/cyberdefend254"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ThuoKaranja"
-
+# Defaults for Pages
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: "pages"
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+      layout: "single"
+      author_profile: true # Keeps your sleek profile visible on the left sidebar
+      sidebar:
+        nav: "docs"
