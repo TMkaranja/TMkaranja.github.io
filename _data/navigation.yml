@@ -1,9 +1,10 @@
+# Main Navigation Links
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "// HOME"
+    url: /
+  - title: "// RESUME"
+    url: /resume/
+  - title: "// PROJECTS"
+    url: /projects/
+  - title: "// LAB_CHALLENGES"
+    url: /labs/
