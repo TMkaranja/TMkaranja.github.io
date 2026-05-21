@@ -15,9 +15,7 @@ author:
   bio: "Cybersecurity & Digital Forensics Student | Ethical Hacker | Cyber Threat Analyst"
   location: "Kitale, Kenya"
   links:
-    - label: "Download CV"
-      icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/documents/Moses_Karanja_Thuo_CV.pdf" # Points directly to your uploaded CV PDF
+
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:moseskanji254@gmail.com"
