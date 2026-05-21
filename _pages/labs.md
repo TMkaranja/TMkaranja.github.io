@@ -1,13 +1,15 @@
 ---
-layout: archive
-title: "STAGING_ENVIRONMENT: LAB_WRITEUPS"
-permalink: /labs/
+layout: single
+title: "Key Projects"
+permalink: /projects/
 author_profile: true
-excerpt: "Documentation logs from CTF arenas, TryHackMe tracks, and Hack The Box node exploitations."
 ---
 
-## // DETONATION_LOGS
+### 🔍 Digital Forensics Research Initiative
+[cite_start]Conducted an in-depth analysis of computer, mobile, and operating system forensics using real-world case study applications[cite: 83]. [cite_start]Developed rigorous core expertise in chain-of-custody evidence collection and analytical methodologies[cite: 84].
 
-Every entry below details the complete lifecycle of an infrastructure attack vector: from initial port mapping and surface scanning to foothold execution, privilege escalation tracking, and patching strategies.
+### 🛡️ Ethical Hacking & Penetration Testing
+[cite_start]Gained deep, practical experience working with industry-standard penetration testing tools and testing frameworks[cite: 85]. [cite_start]Regularly participate in active Capture the Flag (CTF) environments to constantly challenge and build analytical problem-solving skills.
 
-{% include documents-collection.html collection='posts' sort_by='date' sort_order='reverse' %}
+### 👥 Cybersecurity Awareness Campaign Development
+[cite_start]Designed and polished comprehensive training blueprints and materials optimized for diverse, non-technical audiences[cite: 79]. [cite_start]Focused heavily on bridging persistent digital literacy gaps and driving safe security habits among youth and tech professionals[cite: 81].
