@@ -1,5 +1,6 @@
 # Site Settings
 theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "clean" # Provides a crisp, high-contrast, professional tech aesthetic
 
 title: "Moses Karanja Thuo"
@@ -10,13 +11,13 @@ baseurl: ""
 # Site Author Defaults
 author:
   name: "Moses Karanja Thuo"
-  avatar: "/assets/images/photo_2026-05-21_21-36-41.jpg"
+  avatar: "/assets/images/photo_2026-05-21_21-36-41.jpg" # Absolute path matching your image directory
   bio: "Cybersecurity & Digital Forensics Student | Ethical Hacker | Cyber Threat Analyst"
   location: "Kitale, Kenya"
   links:
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "assets/Moses_Karanja_Thuo_CV.pdf"
+      url: "assets/Moses_Karanja_Thuo_CV.pdf" # Points directly to your uploaded CV PDF
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:moseskanji254@gmail.com"
@@ -26,7 +27,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ThuoKaranja"
-      
 
 # Defaults for Pages
 defaults:
@@ -38,7 +38,8 @@ defaults:
       author_profile: true # Keeps your sleek profile visible on the left sidebar
       sidebar:
         nav: "docs"
-# Plugins Required by Minimal Mistakes
+
+# Plugins Required by Minimal Mistakes to prevent build failures
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
