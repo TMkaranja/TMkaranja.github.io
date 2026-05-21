@@ -1,14 +1,13 @@
 ---
-layout: splash
-title: "Moses Karanja Thuo"
-header:
-  overlay_color: "#1f3a60"
-  overlay_filter: "0.4"
-  excerpt: "Cybersecurity & Digital Forensics Professional | Ethical Hacker | Cyber Threat Analyst"
+layout: single
+title: "Welcome to My Digital Security Space"
+permalink: /
+author_profile: true
 ---
 
-## Professional Overview
+### Professional Statement
+[cite_start]Cybersecurity and Digital Forensics professional with hands-on experience in penetration testing, digital forensics, vulnerability assessments, and incident response[cite: 7]. [cite_start]Proven ability to conduct security audits, support cybersecurity awareness training, and implement IT security controls in real-world and simulated environments[cite: 8]. 
 
-I am a Cybersecurity and Digital Forensics professional with hands-on experience in penetration testing, digital forensics, vulnerability assessments, and incident response. I possess a proven track record of conducting comprehensive security audits, supporting cybersecurity awareness training initiatives, and implementing robust IT security controls in real-world and simulated enterprise environments.
+[cite_start]Recognized by the Communications Authority of Kenya at the CA CyberRise Hackathon 2023 for excellence in ethical hacking and threat detection[cite: 9]. [cite_start]Proficient in Wireshark, Burp Suite, Kali Linux, Autopsy, and other industry-standard cybersecurity utilities, bringing strong analytical capabilities to complex threat landscapes[cite: 10].
 
-Recognized by the Communications Authority of Kenya at the CA CyberRise Hackathon 2023 for excellence in ethical hacking and threat detection, I focus on protecting infrastructure integrity and delivering actionable threat telemetry. I am highly proficient in utilizing industry-standard tools including Wireshark, Burp Suite, Kali Linux, and Autopsy to isolate vectors and harden perimeter defenses.
+> [cite_start]**Mission Blueprint:** Protecting digital infrastructure through proactive ethical hacking, rigorous forensic analysis, and continuous security intelligence optimization[cite: 2, 7, 88].
