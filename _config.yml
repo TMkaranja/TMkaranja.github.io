@@ -1,11 +1,11 @@
 # Site settings
 title: "Moses Karanja Thuo"
 email: "moseskanji254@gmail.com"
-description: >- 
-  Cybersecurity & Digital Forensics Student | Ethical Hacker | Cyber Threat Analyst
+description: "Cybersecurity & Digital Forensics Professional | Ethical Hacker"
 github_username: "ThuoKaranja"
 
-minimal_mistakes_skin: "neon"
+# Clean Default Layout
+minimal_mistakes_skin: "default"
 search: true
 
 # Build settings
@@ -30,9 +30,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Profile Sidebar Configuration
 author:
   name     : "Moses Karanja Thuo"
-  avatar   : "/assets/images/profile.jpg" 
+  avatar   : "/assets/images/profile.jpg"
   bio      : "Cybersecurity and Digital Forensics professional specializing in penetration testing, incident response, and threat analysis."
   location : "Kitale, Kenya"
   links:
@@ -56,7 +57,6 @@ footer:
       url: "https://github.com/ThuoKaranja"
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -67,7 +67,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
