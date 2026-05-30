@@ -1,119 +1,119 @@
 ---
-layout: single
 title: "About Me"
 permalink: /about/
 classes: wide
 ---
 
-<div class="about-hero">
-  <h1 class="gradient-text">Moses Karanja Thuo</h1>
-  <p class="lead">Cybersecurity & Digital Forensics Specialist | Ethical Hacker</p>
+<div class="page-header" markdown="1">
+# About Me
+### Cybersecurity & Digital Forensics Specialist
 </div>
 
-## 🎯 Professional Profile
+## Professional Profile
 
-Cybersecurity and Digital Forensics professional with hands-on experience in penetration testing, digital forensics, vulnerability assessments, and incident response. Proven ability to conduct security audits, support cybersecurity awareness training, and implement IT security controls in real-world and simulated environments.
+I am a dedicated Cybersecurity and Digital Forensics professional with hands-on experience in penetration testing, vulnerability assessments, digital forensics, and incident response. My passion lies in protecting organizations from evolving cyber threats through proactive security measures and comprehensive defense strategies.
 
-<div class="highlight-box">
-  <h3>🏆 Key Achievement</h3>
-  <p>Recognized by the <strong>Communications Authority of Kenya</strong> at the CA CyberRise Hackathon 2023 for excellence in ethical hacking and threat detection.</p>
+<div class="highlight-box" markdown="1">
+### 🏆 Key Achievement
+Recognized by the **Communications Authority of Kenya** at the CA CyberRise Hackathon 2023 for exceptional skills in ethical hacking and threat detection.
 </div>
 
-## 💼 Professional Experience
+---
 
-<div class="timeline">
-  <div class="timeline-item">
-    <div class="timeline-header">
-      <h3>AI Data Annotation Specialist</h3>
-      <span class="timeline-date">Feb 2026 – Present</span>
-    </div>
-    <p class="timeline-company">Atlas Capture · Remote</p>
-    <ul>
-      <li>Annotate and label video datasets for AI and machine learning training</li>
-      <li>Identify objects, actions, and patterns with high accuracy</li>
-      <li>Ensure data quality and compliance with annotation guidelines</li>
-      <li>Perform quality assurance checks to reduce labeling errors</li>
-    </ul>
-  </div>
+## What I Do
 
-  <div class="timeline-item">
-    <div class="timeline-header">
-      <h3>Security Analyst Trainee</h3>
-      <span class="timeline-date">Sep 2025 – Apr 2026</span>
-    </div>
-    <p class="timeline-company">Cyber Shujaa Program · Nairobi, Kenya</p>
-    <ul>
-      <li>Completed training in cybersecurity fundamentals, threat analysis, and incident response</li>
-      <li>Conducted SOC-style simulations and vulnerability assessment exercises</li>
-      <li>Developed skills in security monitoring, reporting, and risk analysis</li>
-      <li>Participated in hands-on labs covering ethical hacking and system defense techniques</li>
-    </ul>
-  </div>
+<div class="services-grid" markdown="1">
 
-  <div class="timeline-item">
-    <div class="timeline-header">
-      <h3>Cybersecurity & Forensic Intern</h3>
-      <span class="timeline-date">Sep 2024 – Dec 2024</span>
-    </div>
-    <p class="timeline-company">Secunets Technologies Limited · Kikuyu Town, Kenya</p>
-    <ul>
-      <li>Conducted vulnerability assessments and security audits on client systems</li>
-      <li>Assisted in penetration testing and identification of system weaknesses</li>
-      <li>Implemented IT security policies and improved organizational security posture</li>
-      <li>Supported cybersecurity awareness training for staff and clients</li>
-      <li>Collaborated with technical teams on network and endpoint security improvements</li>
-    </ul>
-  </div>
+<div class="service-card" markdown="1">
+### 🔍 Penetration Testing
+Identifying and exploiting system vulnerabilities before malicious actors can, using industry-standard tools and methodologies.
 </div>
 
-## 🛡️ Skills Arsenal
-
-<div class="skills-matrix">
-  <div class="skill-group">
-    <h3>🔍 Penetration Testing</h3>
-    <div class="skill-level advanced">Advanced</div>
-    <p>Kali Linux, Burp Suite, SQLmap, Nmap, Metasploit</p>
-  </div>
-  
-  <div class="skill-group">
-    <h3>🔬 Digital Forensics</h3>
-    <div class="skill-level intermediate">Intermediate</div>
-    <p>Autopsy, Volatility, Mobile & OS Forensics</p>
-  </div>
-  
-  <div class="skill-group">
-    <h3>🌐 Network Security</h3>
-    <div class="skill-level advanced">Advanced</div>
-    <p>Wireshark, Nessus, Network Analysis</p>
-  </div>
-  
-  <div class="skill-group">
-    <h3>🚨 Incident Response</h3>
-    <div class="skill-level advanced">Advanced</div>
-    <p>Malware Analysis, Threat Detection, Security Auditing</p>
-  </div>
+<div class="service-card" markdown="1">
+### 🔬 Digital Forensics
+Investigating cyber incidents and recovering digital evidence using advanced forensic tools while maintaining chain of custody.
 </div>
 
-## 🎓 Education
-
-<div class="education-section">
-  <div class="edu-card">
-    <h3>Diploma in Computer Science - Cybersecurity & Forensics</h3>
-    <p>Kibabii University, Bungoma, Kenya</p>
-    <span class="edu-date">Sep 2022 – Present</span>
-  </div>
-  
-  <div class="edu-card">
-    <h3>Kenya Certificate of Secondary Education (B-)</h3>
-    <p>St Francis Boys High School, Kitale, Kenya</p>
-    <span class="edu-date">2018 – 2021</span>
-  </div>
+<div class="service-card" markdown="1">
+### 🛡️ Security Auditing
+Conducting comprehensive security assessments, implementing policies, and ensuring compliance with industry standards.
 </div>
 
-## 🏆 Awards & Recognition
+<div class="service-card" markdown="1">
+### 📚 Security Awareness
+Developing and delivering training programs that empower teams to recognize and prevent cyber threats effectively.
+</div>
 
-<div class="award-highlight">
-  <h3>CA CyberRise Hackathon 2023</h3>
-  <p>Communications Authority of Kenya</p>
-  <p class="award-desc">Recognized for demonstrating exceptional skills in ethical hacking and threat detection.</p>
+</div>
+
+---
+
+## Professional Experience
+
+<div class="timeline" markdown="1">
+
+<div class="timeline-item" markdown="1">
+### AI Data Annotation Specialist
+**Atlas Capture** | Remote | *February 2026 – Present*
+- Annotate and label video datasets for AI and machine learning training
+- Identify objects, actions, and patterns with high accuracy
+- Ensure data quality and compliance with annotation guidelines
+- Perform quality assurance checks to reduce labeling errors
+</div>
+
+<div class="timeline-item" markdown="1">
+### Security Analyst Trainee
+**Cyber Shujaa Program** | Nairobi, Kenya | *September 2025 – April 2026*
+- Completed training in cybersecurity fundamentals, threat analysis, and incident response
+- Conducted SOC-style simulations and vulnerability assessment exercises
+- Developed skills in security monitoring, reporting, and risk analysis
+- Participated in hands-on labs covering ethical hacking and system defense techniques
+</div>
+
+<div class="timeline-item" markdown="1">
+### Cybersecurity & Forensic Intern
+**Secunets Technologies Limited** | Kikuyu Town, Kenya | *September 2024 – December 2024*
+- Conducted vulnerability assessments and security audits on client systems
+- Assisted in penetration testing and identification of system weaknesses
+- Implemented IT security policies and improved organizational security posture
+- Supported cybersecurity awareness training for staff and clients
+- Collaborated with technical teams on network and endpoint security improvements
+</div>
+
+</div>
+
+---
+
+## Education
+
+| Degree | Institution | Location | Period |
+|--------|------------|----------|--------|
+| Diploma in Computer Science - Cybersecurity & Forensics | Kibabii University | Bungoma, Kenya | 2022 – Present |
+| Kenya Certificate of Secondary Education (B-) | St Francis Boys High School | Kitale, Kenya | 2018 – 2021 |
+
+---
+
+## Skills & Expertise
+
+### Technical Skills
+
+| Category | Level | Tools & Technologies |
+|----------|-------|---------------------|
+| Penetration Testing | Advanced | Kali Linux, Burp Suite, SQLmap, Nmap, Metasploit |
+| Digital Forensics | Intermediate | Autopsy, Volatility, Mobile & OS Forensics |
+| Network Security | Advanced | Wireshark, Nessus, Network Analysis |
+| Incident Response | Advanced | Malware Analysis, Threat Detection, Security Auditing |
+
+### Soft Skills
+Critical Thinking • Communication • Time Management • Leadership • Collaboration • Adaptability • Problem Solving • Creativity
+
+---
+
+## Languages
+- **English** — Fluent (Professional Working Proficiency)
+- **Swahili** — Native
+
+<div class="page-cta" markdown="1">
+[View My Portfolio](/portfolio/){: .btn .btn--primary}
+[Download CV](/assets/docs/Moses-Thuo-CV.pdf){: .btn .btn--outline}
 </div>
