@@ -1,118 +1,37 @@
-/* ---------- Tech Stack Tags ---------- */
-.tech-stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  margin: 1.5rem 0;
-}
-
-.tech-tag {
-  display: inline-block;
-  padding: 8px 18px;
-  background: rgba(0, 255, 136, 0.08);
-  color: var(--primary);
-  border: 1px solid rgba(0, 255, 136, 0.2);
-  border-radius: 25px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.tech-tag:hover {
-  background: rgba(0, 255, 136, 0.15);
-  border-color: var(--primary);
-  transform: translateY(-2px);
-}
-
-/* ---------- Experience Cards ---------- */
-.experience-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.experience-card {
-  background: linear-gradient(135deg, var(--darker), var(--card-bg));
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1.5rem;
-  transition: all 0.3s ease;
-}
-
-.experience-card:hover {
-  border-color: var(--primary);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
-
-.experience-card h3 {
-  color: var(--primary);
-  margin-top: 0;
-  font-size: 1.1rem;
-}
-
-.experience-card strong {
-  color: #fff;
-}
-
-.experience-card em {
-  color: var(--text-muted);
-  font-size: 0.85rem;
-}
-
-/* ---------- Stats Grid ---------- */
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-
-.stat-card {
-  background: linear-gradient(135deg, var(--darker), var(--card-bg));
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1.5rem;
+/* ---------- Section Headings ---------- */
+.section-heading {
   text-align: center;
-  transition: all 0.3s ease;
-}
-
-.stat-card:hover {
-  border-color: var(--primary);
-  transform: translateY(-3px);
-}
-
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: 700;
   color: var(--primary);
-  line-height: 1;
+  font-size: 1.8rem;
+  margin: 3rem 0 1.5rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.section-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  border-radius: 3px;
+}
+
+/* ---------- Experience Meta ---------- */
+.experience-meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
   margin-bottom: 0.5rem;
 }
 
-.stat-label {
+.experience-meta strong {
+  color: #fff;
+}
+
+.experience-meta em {
   color: var(--text-muted);
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-/* ---------- Responsive ---------- */
-@media (max-width: 768px) {
-  .experience-grid,
-  .stats-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .stat-number {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .stats-grid {
-    grid-template-columns: 1fr;
-  }
+  font-style: italic;
 }
