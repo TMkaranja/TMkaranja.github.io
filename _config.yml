@@ -1,29 +1,31 @@
-# Theme Settings
+# =============================================
+# THEME SETTINGS
+# =============================================
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "dark"
 
-# Site Settings
+# =============================================
+# SITE SETTINGS
+# =============================================
 locale: "en-US"
 title: "Moses Karanja Thuo"
-title_separator: "|"
+title_separator: "•"
 subtitle: "Cybersecurity & Digital Forensics Specialist"
 name: "Moses Karanja Thuo"
 description: "Cybersecurity & Digital Forensics Specialist | Ethical Hacker | Threat Detection & Vulnerability Analysis"
 url: "https://tmkaranja.github.io"
 repository: "ThuoKaranja/tmkaranja.github.io"
+words_per_minute: 200
 
-# THIS IS CRITICAL - Must include _pages
-include:
-  - _pages
-  - assets
-
-# Author Settings
+# =============================================
+# AUTHOR INFORMATION
+# =============================================
 author:
-  name: "Moses Karanja Thuo"
-  avatar: "/assets/images/moses-thuo.jpg"
-  bio: "Cybersecurity & Digital Forensics Specialist | Ethical Hacker"
-  location: "Kitale, Kenya"
-  email: "moseskanji254@gmail.com"
+  name                : "Moses Karanja Thuo"
+  avatar              : "/assets/images/moses-thuo.jpg"
+  bio                 : "Cybersecurity & Digital Forensics Specialist | Ethical Hacker | Securing digital assets through proactive defense"
+  location            : "Kitale, Kenya"
+  email               : "moseskanji254@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -35,7 +37,9 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ThuoKaranja"
 
-# Footer
+# =============================================
+# FOOTER
+# =============================================
 footer:
   links:
     - label: "GitHub"
@@ -44,18 +48,32 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/thuo-cyberdefense"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:moseskanji254@gmail.com"
 
-# Defaults - CRITICAL for page generation
+# =============================================
+# INCLUDES
+# =============================================
+include:
+  - _pages
+
+# =============================================
+# DEFAULTS
+# =============================================
 defaults:
+  # Pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
+      classes: wide
       sidebar:
         nav: "main"
+  # Posts
   - scope:
       path: ""
       type: posts
@@ -64,28 +82,14 @@ defaults:
       author_profile: true
       read_time: true
       share: true
+      related: true
 
-# Plugins
+# =============================================
+# PLUGINS
+# =============================================
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-seo-tag
-
-# Collections
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  certifications:
-    output: true
-    permalink: /:collection/:path/
-
-# Permalink structure
-permalink: /:categories/:title/
-
-# Sidebar Navigation
-sidebar:
-  nav: "main"
