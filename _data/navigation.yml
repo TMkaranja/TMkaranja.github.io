@@ -1,9 +1,13 @@
 main:
-  - title: "Home"
+  - title: "🏠 Home"
     url: /
-  - title: "Resume"
-    url: /resume/
-  - title: "Projects"
-    url: /projects/
-  - title: "Lab Challenges"
-    url: /labs/
+  - title: "👤 About"
+    url: /about/
+  - title: "💼 Portfolio"
+    url: /portfolio/
+  - title: "📜 Certifications"
+    url: /certifications/
+  - title: "📄 CV"
+    url: /cv/
+  - title: "📝 Blog"
+    url: /blog/
