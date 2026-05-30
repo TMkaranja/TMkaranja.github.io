@@ -1,17 +1,3 @@
-cd TMkaranja.github.io
-
-# Create CV page in root folder
-cat > cv.md << 'EOF'
----
-layout: single
-title: "Curriculum Vitae"
-permalink: /cv/
-classes: wide
-author_profile: true
-sidebar:
-  nav: "main"
----
-
 # Moses Karanja Thuo
 **Cybersecurity & Digital Forensics Specialist | Ethical Hacker**
 
