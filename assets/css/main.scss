@@ -1,5 +1,5 @@
 ---
-# Main CSS file with cyber security theme
+# Only the main Sass file needs front matter
 ---
 
 @charset "utf-8";
@@ -7,395 +7,43 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* ===== CYBER SECURITY THEME ENHANCEMENTS ===== */
-
-:root {
-  --cyber-primary: #00ff88;
-  --cyber-secondary: #0ff;
-  --cyber-accent: #ff0055;
-  --cyber-dark: #0a0a0a;
-  --cyber-darker: #111;
-  --cyber-glow: rgba(0, 255, 136, 0.3);
+/* Fix button clickability */
+.btn, 
+.btn--primary,
+.btn--large,
+.btn--light-outline {
+  position: relative;
+  z-index: 10 !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  display: inline-block !important;
 }
 
-/* Matrix Rain Effect Header */
+/* Ensure overlay doesn't block buttons */
+.page__hero--overlay .btn {
+  position: relative;
+  z-index: 100 !important;
+}
+
+.page__hero--overlay .wrapper {
+  position: relative;
+  z-index: 5;
+}
+
+/* Make sure links are clickable */
+a.btn {
+  text-decoration: none !important;
+}
+
+a.btn:hover {
+  text-decoration: none !important;
+}
+
+/* Fix for header overlay blocking clicks */
 .page__hero--overlay {
-  position: relative;
-  overflow: hidden;
+  pointer-events: auto !important;
 }
 
-.page__hero--overlay::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, 
-    rgba(0, 255, 136, 0.05) 0%, 
-    rgba(0, 255, 255, 0.05) 50%, 
-    rgba(255, 0, 85, 0.05) 100%);
-  animation: cyberScan 8s linear infinite;
-}
-
-@keyframes cyberScan {
-  0% { background-position: 0% 0%; }
-  50% { background-position: 100% 100%; }
-  100% { background-position: 0% 0%; }
-}
-
-/* Glowing Text Effect */
-.gradient-text {
-  background: linear-gradient(135deg, var(--cyber-primary), var(--cyber-secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: 0 0 20px var(--cyber-glow);
-}
-
-/* Cyber Card Design */
-.cyber-card {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  border: 1px solid #0f3460;
-  border-radius: 15px;
-  overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  position: relative;
-}
-
-.cyber-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--cyber-primary), transparent);
-  animation: cardGlow 3s linear infinite;
-}
-
-.cyber-card:hover {
-  transform: translateY(-10px);
-  border-color: var(--cyber-primary);
-  box-shadow: 0 20px 40px rgba(0, 255, 136, 0.2);
-}
-
-@keyframes cardGlow {
-  0% { left: -100%; }
-  100% { left: 100%; }
-}
-
-.card-header {
-  padding: 20px;
-  background: linear-gradient(135deg, rgba(0, 255, 136, 0.1), rgba(0, 255, 255, 0.1));
-  border-bottom: 1px solid #0f3460;
-}
-
-.card-badge {
-  display: inline-block;
-  padding: 5px 12px;
-  background: rgba(255, 0, 85, 0.2);
-  color: var(--cyber-accent);
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.card-body {
-  padding: 20px;
-}
-
-.card-footer {
-  padding: 15px 20px;
-  background: rgba(0, 0, 0, 0.3);
-  display: flex;
-  gap: 10px;
-  justify-content: flex-end;
-}
-
-/* Tech Stack Tags */
-.tag {
-  display: inline-block;
-  padding: 4px 10px;
-  background: rgba(0, 255, 136, 0.1);
-  border: 1px solid rgba(0, 255, 136, 0.3);
-  border-radius: 15px;
-  font-size: 0.8rem;
-  color: var(--cyber-primary);
-  margin: 3px;
-}
-
-/* Button Styling */
-.btn--primary {
-  background: linear-gradient(135deg, #00ff88 0%, #00ff88 100%);
-  border: none;
-  color: var(--cyber-dark);
-  font-weight: bold;
-  padding: 12px 25px;
-  border-radius: 25px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.btn--primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
-  color: var(--cyber-dark);
-}
-
-.btn--primary::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
-  transform: translate(-50%, -50%);
-  transition: width 0.6s, height 0.6s;
-}
-
-.btn--primary:hover::before {
-  width: 300px;
-  height: 300px;
-}
-
-/* Skill Level Indicators */
-.skill-level {
-  display: inline-block;
-  padding: 5px 15px;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.skill-level.advanced {
-  background: rgba(0, 255, 136, 0.2);
-  color: var(--cyber-primary);
-  border: 1px solid var(--cyber-primary);
-}
-
-.skill-level.intermediate {
-  background: rgba(0, 255, 255, 0.2);
-  color: var(--cyber-secondary);
-  border: 1px solid var(--cyber-secondary);
-}
-
-/* Timeline Design */
-.timeline {
-  position: relative;
-  padding-left: 30px;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--cyber-primary), var(--cyber-secondary), var(--cyber-accent));
-}
-
-.timeline-item {
-  position: relative;
-  padding: 20px;
-  margin-bottom: 30px;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  border: 1px solid #0f3460;
-  border-radius: 10px;
-}
-
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -34px;
-  top: 30px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--cyber-primary);
-  box-shadow: 0 0 10px var(--cyber-glow);
-}
-
-.timeline-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.timeline-date {
-  color: var(--cyber-secondary);
-  font-size: 0.9rem;
-  font-weight: bold;
-}
-
-.timeline-company {
-  color: var(--cyber-accent);
-  font-style: italic;
-  margin-bottom: 10px;
-}
-
-/* Highlight Box */
-.highlight-box {
-  background: linear-gradient(135deg, rgba(255, 0, 85, 0.1), rgba(0, 255, 136, 0.1));
-  border: 1px solid rgba(255, 0, 85, 0.3);
-  border-radius: 15px;
-  padding: 25px;
-  margin: 30px 0;
-  position: relative;
-}
-
-.highlight-box::before {
-  content: '🏆';
-  position: absolute;
-  top: -20px;
-  left: 20px;
-  font-size: 2rem;
-}
-
-/* Stats Counter */
-.cyber-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin: 40px 0;
-}
-
-.stat-card {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  border: 1px solid #0f3460;
-  border-radius: 15px;
-  padding: 30px;
-  text-align: center;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.stat-card:hover {
-  border-color: var(--cyber-primary);
-  box-shadow: 0 10px 30px rgba(0, 255, 136, 0.2);
-  transform: translateY(-5px);
-}
-
-.stat-card::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, transparent, rgba(0, 255, 136, 0.05));
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.stat-card:hover::after {
-  opacity: 1;
-}
-
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: bold;
-  background: linear-gradient(135deg, var(--cyber-primary), var(--cyber-secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 10px;
-}
-
-.stat-label {
-  color: #ccc;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-/* Terminal Effect */
-.terminal-text {
-  font-family: 'Courier New', monospace;
-  color: var(--cyber-primary);
-  background: var(--cyber-dark);
-  padding: 20px;
-  border-radius: 10px;
-  border: 1px solid var(--cyber-primary);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .timeline-header {
-    flex-direction: column;
-    gap: 5px;
-  }
-  
-  .cyber-stats {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-/* Loading Animation */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-in-up {
-  animation: fadeInUp 0.6s ease;
-}
-
-/* Grid Layouts */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 30px;
-  margin: 40px 0;
-}
-
-.skills-matrix {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.tech-grid {
-  display: grid;
-  gap: 30px;
-}
-
-/* Filter Buttons */
-.portfolio-filter {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  margin-bottom: 40px;
-  flex-wrap: wrap;
-}
-
-.filter-btn {
-  transition: all 0.3s ease;
-}
-
-.filter-btn.active {
-  background: linear-gradient(135deg, var(--cyber-primary), var(--cyber-secondary));
-  transform: scale(1.05);
-  color: var(--cyber-dark);
+.page__hero--overlay * {
+  pointer-events: auto !important;
 }
