@@ -1,36 +1,99 @@
-# Site Settings
-theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "clean" # Provides a crisp, high-contrast, professional tech aesthetic
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "mint" # Start with mint, then customize with CSS
 
-title: "Moses Karanja Thuo"
-description: "Cybersecurity & Digital Forensics Portfolio"
-url: "https://ThuoKaranja.github.io"
-baseurl: ""
+# Modern Site Settings
+locale: "en-US"
+title: "Your Name"
+title_separator: "•"
+subtitle: "Full Stack Developer & UI/UX Designer"
+name: "Your Name"
+description: "Crafting digital experiences that make a difference. Specializing in modern web development and user-centered design."
+url: "https://username.github.io"
+repository: "username/username.github.io"
+words_per_minute: 200
 
-# Site Author Defaults
+# Professional Author Settings
 author:
-  name: "Moses Karanja Thuo"
-  avatar: "/assets/images/photo_2026-05-21_21-36-41.jpg" # Add your professional headshot here
-  bio: "Cybersecurity & Digital Forensics Student | Ethical Hacker | Cyber Threat Analyst"
-  location: "Kitale, Kenya"
+  name: "Your Name"
+  avatar: "/assets/images/profile-professional.jpg"
+  bio: "🚀 Building the future, one commit at a time. Passionate about clean code and stunning interfaces."
+  location: "San Francisco, CA"
+  email: "hello@yourdomain.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:moseskanji254@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/cyberdefend254"
+      url: "mailto:hello@yourdomain.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ThuoKaranja"
+      url: "https://github.com/yourusername"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/yourusername"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/yourusername"
+    - label: "Dribbble"
+      icon: "fab fa-fw fa-dribbble"
+      url: "https://dribbble.com/yourusername"
 
-# Defaults for Pages
+# Modern Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yourusername"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yourusername"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:hello@yourdomain.com"
+
+# Default Layout Settings
 defaults:
+  # Home page
   - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      layout: "single"
-      author_profile: true # Keeps your sleek profile visible on the left sidebar
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
       sidebar:
-        nav: "docs"
+        nav: "main"
+      classes: wide
+      
+  # Posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      classes: wide
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# SEO & Analytics
+google_analytics: "UA-XXXXXXXXX-X" # Replace with your GA4 ID
+twitter:
+  username: "yourusername"
+
+# Collections for Projects
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
