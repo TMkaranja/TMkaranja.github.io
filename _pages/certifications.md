@@ -1,65 +1,83 @@
 ---
-layout: single
 title: "Certifications & Training"
 permalink: /certifications/
 classes: wide
 ---
 
-## 🎓 Professional Certifications
-
-<div class="certs-grid">
-  <div class="cert-card">
-    <div class="cert-icon">🛡️</div>
-    <h3>Cyber Shujaa Security Analyst</h3>
-    <p>USIU-Africa, Serianu Limited</p>
-    <span class="cert-date">April 2026</span>
-    <p class="cert-desc">Advanced security analyst certification covering SOC operations, threat analysis, and incident response.</p>
-    <a href="#" class="btn btn--small btn--primary">View Certificate</a>
-  </div>
-
-  <div class="cert-card">
-    <div class="cert-icon">🔍</div>
-    <h3>Computer & Digital Forensics Masterclass</h3>
-    <p>OCSALY Academy</p>
-    <span class="cert-date">2024</span>
-    <p class="cert-desc">Comprehensive training in digital forensics methodologies, evidence handling, and forensic analysis techniques.</p>
-    <a href="#" class="btn btn--small btn--primary">View Certificate</a>
-  </div>
-
-  <div class="cert-card">
-    <div class="cert-icon">💻</div>
-    <h3>Practical Ethical Hacking</h3>
-    <p>TCM Security, Inc.</p>
-    <span class="cert-date">2025</span>
-    <p class="cert-desc">Hands-on ethical hacking certification covering penetration testing, vulnerability assessment, and exploitation techniques.</p>
-    <a href="#" class="btn btn--small btn--primary">View Certificate</a>
-  </div>
-
-  <div class="cert-card">
-    <div class="cert-icon">🔐</div>
-    <h3>Cybersecurity Fundamentals</h3>
-    <p>IBM SkillsBuild</p>
-    <span class="cert-date">2024</span>
-    <p class="cert-desc">Foundation certification in cybersecurity principles, threat landscapes, and security best practices.</p>
-    <a href="#" class="btn btn--small btn--primary">View Certificate</a>
-  </div>
+<div class="page-header" markdown="1">
+# Certifications & Training
+### Professional Development & Achievements
 </div>
 
-## 🎯 Additional Training
+<div class="certifications-grid" markdown="1">
 
-<div class="training-list">
-  <div class="training-item">
-    <h4>Security Operations Center (SOC) Simulation</h4>
-    <p>Hands-on experience with security monitoring, threat detection, and incident response procedures</p>
-  </div>
-  
-  <div class="training-item">
-    <h4>Vulnerability Assessment & Management</h4>
-    <p>Practical training in identifying, assessing, and remediating security vulnerabilities</p>
-  </div>
-  
-  <div class="training-item">
-    <h4>Capture The Flag (CTF) Competitions</h4>
-    <p>Active participation in cybersecurity challenges focusing on real-world attack scenarios</p>
-  </div>
+<div class="cert-card" markdown="1">
+<div class="cert-icon">🛡️</div>
+
+### Cyber Shujaa Security Analyst Certification
+**USIU-Africa, Serianu Limited** · *April 2026*
+
+Advanced security analyst certification covering SOC operations, threat analysis, and incident response procedures.
+</div>
+
+<div class="cert-card" markdown="1">
+<div class="cert-icon">🔍</div>
+
+### Computer & Digital Forensics Masterclass
+**OCSALY Academy** · *2024*
+
+Comprehensive training in digital forensics methodologies, evidence handling, and forensic analysis techniques.
+</div>
+
+<div class="cert-card" markdown="1">
+<div class="cert-icon">💻</div>
+
+### Practical Ethical Hacking
+**TCM Security, Inc.** · *2025*
+
+Hands-on certification covering penetration testing, vulnerability assessment, and exploitation techniques.
+</div>
+
+<div class="cert-card" markdown="1">
+<div class="cert-icon">🔐</div>
+
+### Cybersecurity Fundamentals Certificate
+**IBM SkillsBuild** · *2024*
+
+Foundation certification in cybersecurity principles, threat landscapes, and security best practices.
+</div>
+
+</div>
+
+---
+
+## 🏆 Awards & Recognition
+
+<div class="award-box" markdown="1">
+### CA CyberRise Hackathon 2023
+**Communications Authority of Kenya** · *December 2022*
+
+Recognized for demonstrating exceptional skills in ethical hacking and threat detection among competing cybersecurity professionals.
+</div>
+
+---
+
+## Additional Training
+
+<div class="training-list" markdown="1">
+
+### Security Operations Center (SOC) Simulation
+Hands-on experience with security monitoring, threat detection, and incident response procedures in a simulated environment.
+
+### Vulnerability Assessment & Management
+Practical training in identifying, assessing, and remediating security vulnerabilities across diverse systems.
+
+### Capture The Flag (CTF) Competitions
+Active participation in cybersecurity challenges focusing on real-world attack scenarios and defense strategies.
+
+</div>
+
+<div class="page-cta" markdown="1">
+[View Portfolio](/portfolio/){: .btn .btn--primary}
+[Download CV](/assets/docs/Moses-Thuo-CV.pdf){: .btn .btn--outline}
 </div>
