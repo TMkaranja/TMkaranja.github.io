@@ -1,85 +1,109 @@
 ---
 layout: single
-title: "Selected Work"
+title: "Security Portfolio"
 permalink: /portfolio/
 classes: wide
-author_profile: true
 ---
 
 <div class="portfolio-filter">
-  <button class="btn btn--primary filter-btn active" data-filter="all">All</button>
-  <button class="btn btn--primary filter-btn" data-filter="development">Development</button>
-  <button class="btn btn--primary filter-btn" data-filter="design">Design</button>
-  <button class="btn btn--primary filter-btn" data-filter="mobile">Mobile</button>
+  <button class="btn btn--primary filter-btn active" data-filter="all">All Projects</button>
+  <button class="btn btn--primary filter-btn" data-filter="pentesting">Penetration Testing</button>
+  <button class="btn btn--primary filter-btn" data-filter="forensics">Digital Forensics</button>
+  <button class="btn btn--primary filter-btn" data-filter="awareness">Security Awareness</button>
 </div>
 
-<style>
-.portfolio-filter {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  margin-bottom: 40px;
-  flex-wrap: wrap;
-}
-.filter-btn {
-  transition: all 0.3s ease;
-}
-.filter-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  transform: scale(1.05);
-}
-</style>
+<div class="projects-grid">
 
-## 🚀 Featured Projects
-
-<div class="projects-grid" markdown="1">
-
-<div class="project-card" data-category="development design">
-  <img src="/assets/images/project1-thumb.jpg" alt="E-Commerce Platform">
-  <div class="project-overlay">
-    <h3>E-Commerce Platform</h3>
-    <p>Full-stack solution with React, Node.js & Stripe</p>
-    <div class="project-stats">
-      <span>⭐ 245</span>
-      <span>🔀 67</span>
+<div class="project-card cyber-card" data-category="pentesting">
+  <div class="card-header">
+    <span class="card-badge">Advanced</span>
+    <h3>Ethical Hacking & Penetration Testing Lab</h3>
+  </div>
+  <div class="card-body">
+    <p>Comprehensive penetration testing exercises using industry-standard tools and methodologies. Demonstrated expertise in vulnerability identification and exploitation.</p>
+    <div class="tech-stack">
+      <span class="tag">Kali Linux</span>
+      <span class="tag">Metasploit</span>
+      <span class="tag">Burp Suite</span>
+      <span class="tag">Nmap</span>
     </div>
-    <div class="project-links">
-      <a href="https://github.com/yourusername/project1" class="btn btn--small">Code</a>
-      <a href="https://project1-demo.com" class="btn btn--small btn--primary">Live Demo</a>
+    <div class="card-stats">
+      <span>🛡️ 30+ Vulnerabilities Found</span>
+      <span>🎯 100% Success Rate</span>
     </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="btn btn--small">Case Study</a>
+    <a href="https://github.com/ThuoKaranja" class="btn btn--small btn--primary">GitHub</a>
   </div>
 </div>
 
-<div class="project-card" data-category="mobile design">
-  <img src="/assets/images/project2-thumb.jpg" alt="Fitness App">
-  <div class="project-overlay">
-    <h3>FitTrack Pro</h3>
-    <p>React Native fitness app with AI-powered workouts</p>
-    <div class="project-stats">
-      <span>⭐ 189</span>
-      <span>🔀 45</span>
+<div class="project-card cyber-card" data-category="forensics">
+  <div class="card-header">
+    <span class="card-badge">Research</span>
+    <h3>Digital Forensics Research Initiative</h3>
+  </div>
+  <div class="card-body">
+    <p>In-depth analysis of computer, mobile, and operating system forensics with real-world case study applications. Developed expertise in evidence collection and analysis methodologies.</p>
+    <div class="tech-stack">
+      <span class="tag">Autopsy</span>
+      <span class="tag">Volatility</span>
+      <span class="tag">OS Forensics</span>
     </div>
-    <div class="project-links">
-      <a href="https://github.com/yourusername/project2" class="btn btn--small">Code</a>
-      <a href="https://project2-demo.com" class="btn btn--small btn--primary">Live Demo</a>
+    <div class="card-stats">
+      <span>🔍 10+ Case Studies</span>
+      <span>📊 Detailed Reports</span>
     </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="btn btn--small">Research Paper</a>
+    <a href="#" class="btn btn--small btn--primary">Methodology</a>
   </div>
 </div>
 
-<div class="project-card" data-category="development">
-  <img src="/assets/images/project3-thumb.jpg" alt="DevOps Tool">
-  <div class="project-overlay">
-    <h3>CloudDeploy</h3>
-    <p>Automated deployment tool for AWS & Docker</p>
-    <div class="project-stats">
-      <span>⭐ 312</span>
-      <span>🔀 89</span>
+<div class="project-card cyber-card" data-category="awareness">
+  <div class="card-header">
+    <span class="card-badge">Community</span>
+    <h3>Cybersecurity Awareness Campaign</h3>
+  </div>
+  <div class="card-body">
+    <p>Designed comprehensive training materials and awareness programs for diverse audiences. Focused on bridging digital literacy gaps and promoting safe technology practices.</p>
+    <div class="tech-stack">
+      <span class="tag">Training Design</span>
+      <span class="tag">Risk Communication</span>
+      <span class="tag">Digital Literacy</span>
     </div>
-    <div class="project-links">
-      <a href="https://github.com/yourusername/project3" class="btn btn--small">Code</a>
-      <a href="https://project3-demo.com" class="btn btn--small btn--primary">Live Demo</a>
+    <div class="card-stats">
+      <span>👥 200+ Trained</span>
+      <span>📚 5 Modules</span>
     </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="btn btn--small">Materials</a>
+    <a href="#" class="btn btn--small btn--primary">Impact Report</a>
+  </div>
+</div>
+
+<div class="project-card cyber-card" data-category="pentesting">
+  <div class="card-header">
+    <span class="card-badge">Competition</span>
+    <h3>CTF Competition Participation</h3>
+  </div>
+  <div class="card-body">
+    <p>Participated in Capture the Flag (CTF) competitions, including the CA CyberRise Hackathon 2023, enhancing problem-solving and analytical skills in real-world scenarios.</p>
+    <div class="tech-stack">
+      <span class="tag">Cryptography</span>
+      <span class="tag">Reverse Engineering</span>
+      <span class="tag">Web Exploitation</span>
+    </div>
+    <div class="card-stats">
+      <span>🏆 CA Award Winner</span>
+      <span>🎮 3 Competitions</span>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="btn btn--small">Write-ups</a>
+    <a href="#" class="btn btn--small btn--primary">Achievements</a>
   </div>
 </div>
 
